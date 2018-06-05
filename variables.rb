@@ -7,7 +7,7 @@
 #end
 
 
-time = gets.strip
+time = gets.chomp
 if "#{time}" >= "7" && "#{time}" <= "11"
   puts "Good Morning"
 else if "#{time}" >= "11" && "#{time}" <= "17"
