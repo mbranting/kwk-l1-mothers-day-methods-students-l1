@@ -5,3 +5,9 @@ end
 if age >= 10
   puts "Welcome"
 end
+
+if age < 10
+  puts "Bye!"
+end
+else 
+  puts "Welcome"
