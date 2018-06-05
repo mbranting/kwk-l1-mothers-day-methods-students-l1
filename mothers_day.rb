@@ -19,4 +19,4 @@ mothers_day("Beyonce")
 
 #method4
 def mothers_day(you, me, occasion)
-  puts "Happy #{occasion}, #{you}! -"
+  puts "Happy #{occasion}, #{you}! - From #{me}"
