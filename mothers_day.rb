@@ -1,6 +1,22 @@
-## Define your method, mothers_day, below. Go through the README and update your method as needed!
+#method1
+def mothers_day
+  puts "Happy Mother's Day, Mom!"
+end
+mothers_day
 
+#method2
+def mothers_day(recipient)
+  puts "Happy Mother's Day, #{recipient}!"
+end
+mothers_day("Beyonce")
 
+#method3
+def mothers_day(recipient = "Mom")
+  puts "Happy Mother's Day, #{recipient}"
+end
+mothers_day
+mothers_day("Beyonce")
 
-## Call your method below - use puts to see it in the terminal!
-
+#method4
+def mothers_day(you, me, occasion)
+  puts "Happy #{occasion}, "
