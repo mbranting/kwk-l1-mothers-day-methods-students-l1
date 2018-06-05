@@ -5,3 +5,4 @@ if "#{grade}" >= "70"
 else 
   puts "Fail"
 end
+
