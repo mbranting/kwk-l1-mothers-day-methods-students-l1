@@ -6,9 +6,6 @@
   #puts "Fail"
 #end
 
-a = gets.chomp.to.i
-if a > 0
-  puts "number is valid"
-else
-  puts "ERROR"
-end
+
+time = gets.strip
+if "#{time}
